@@ -5,11 +5,11 @@
 ```ruby
 
 class CardGame
-  #Error; There is no end.
-  #Error: All functions should be self.
+#Error; There is no end.
+#Error: All functions should be self.
 
-#Error 1: convention should  make the function snake case.
-#Error 2: needs to two '=' symbols so it is a turnery operator.
+#Error 1: convention should  make the function snake case - check_for_ace.
+#Error 2: The value should be a turnery operator - "==".
   def checkforAce(card)
     if card.value = 1
       return true
@@ -18,9 +18,9 @@ class CardGame
     end
   end
 
-  #error 1: There is a spelling mistake for 'def'.
-  #Error 2: there is no comma between the two parameters of the function.
-  #Error 3: there is an extra end.
+  #Error 1: There is a spelling mistake for 'def'.
+  #Error 2: There is no comma between the two parameters of the function.
+  #Error 3: There is an extra end.
   #Error 4: It should return card1.
 
   def highest_card(card1 card2)
@@ -32,8 +32,8 @@ class CardGame
   end
 end
 
-#Error 1: The total variable needs a value.
-#Error 2: Convention make the return use string interpolation.
+#Error 1: The total variable needs to have a value.
+#Error 2: Convention should make the return use string interpolation.
 #Error 3: Return should be out the loop
 
   def self.cards_total(cards)
